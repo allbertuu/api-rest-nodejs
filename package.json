@@ -1,0 +1,32 @@
+{
+  "name": "api-rest-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "lint": "eslint src --ext .ts --fix",
+    "migrate": "prisma migrate dev",
+    "test": "vitest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rocketseat/eslint-config": "^2.1.0",
+    "@types/node": "^20.5.7",
+    "@types/supertest": "^2.0.12",
+    "eslint": "^8.48.0",
+    "prettier": "^3.0.3",
+    "prisma": "^5.2.0",
+    "supertest": "^6.3.3",
+    "tsx": "^3.12.7",
+    "typescript": "^5.2.2",
+    "vitest": "^0.34.3"
+  },
+  "dependencies": {
+    "@fastify/cookie": "^9.0.4",
+    "@prisma/client": "^5.2.0",
+    "fastify": "^4.22.0"
+  }
+}
